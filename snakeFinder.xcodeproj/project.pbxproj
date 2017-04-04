@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC0D0CB81DC15D2300DB1BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CB71DC15D2300DB1BC8 /* AppDelegate.swift */; };
-		FC0D0CBA1DC15D2300DB1BC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CB91DC15D2300DB1BC8 /* ViewController.swift */; };
-		FC0D0CBD1DC15D2300DB1BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0D0CBB1DC15D2300DB1BC8 /* Main.storyboard */; };
 		FC0D0CBF1DC15D2300DB1BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0D0CBE1DC15D2300DB1BC8 /* Assets.xcassets */; };
-		FC0D0CC21DC15D2300DB1BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0D0CC01DC15D2300DB1BC8 /* LaunchScreen.storyboard */; };
 		FC0D0CCD1DC15D2300DB1BC8 /* snakeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CCC1DC15D2300DB1BC8 /* snakeFinderTests.swift */; };
 		FC0D0CD81DC15D2300DB1BC8 /* snakeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CD71DC15D2300DB1BC8 /* snakeFinderUITests.swift */; };
+		FC0D0CE61DC15D4000DB1BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CE51DC15D4000DB1BC8 /* AppDelegate.swift */; };
+		FC0D0CED1DC15D6400DB1BC8 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CE71DC15D6400DB1BC8 /* MasterTableViewController.swift */; };
+		FC0D0CEE1DC15D6400DB1BC8 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CE81DC15D6400DB1BC8 /* Snake.swift */; };
+		FC0D0CEF1DC15D6400DB1BC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D0CE91DC15D6400DB1BC8 /* DetailViewController.swift */; };
+		FC0D0CF01DC15D6400DB1BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0D0CEA1DC15D6400DB1BC8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,19 @@
 
 /* Begin PBXFileReference section */
 		FC0D0CB41DC15D2300DB1BC8 /* snakeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snakeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC0D0CB71DC15D2300DB1BC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC0D0CB91DC15D2300DB1BC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC0D0CBC1DC15D2300DB1BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC0D0CBE1DC15D2300DB1BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC0D0CC11DC15D2300DB1BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC0D0CC31DC15D2300DB1BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC0D0CC81DC15D2300DB1BC8 /* snakeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snakeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0D0CCC1DC15D2300DB1BC8 /* snakeFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeFinderTests.swift; sourceTree = "<group>"; };
 		FC0D0CCE1DC15D2300DB1BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC0D0CD31DC15D2300DB1BC8 /* snakeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snakeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0D0CD71DC15D2300DB1BC8 /* snakeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeFinderUITests.swift; sourceTree = "<group>"; };
 		FC0D0CD91DC15D2300DB1BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0D0CE51DC15D4000DB1BC8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC0D0CE71DC15D6400DB1BC8 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		FC0D0CE81DC15D6400DB1BC8 /* Snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		FC0D0CE91DC15D6400DB1BC8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FC0D0CEA1DC15D6400DB1BC8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FC0D0CEC1DC15D6400DB1BC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		FC0D0CB61DC15D2300DB1BC8 /* snakeFinder */ = {
 			isa = PBXGroup;
 			children = (
-				FC0D0CB71DC15D2300DB1BC8 /* AppDelegate.swift */,
-				FC0D0CB91DC15D2300DB1BC8 /* ViewController.swift */,
-				FC0D0CBB1DC15D2300DB1BC8 /* Main.storyboard */,
+				FC0D0CE71DC15D6400DB1BC8 /* MasterTableViewController.swift */,
+				FC0D0CE81DC15D6400DB1BC8 /* Snake.swift */,
+				FC0D0CE91DC15D6400DB1BC8 /* DetailViewController.swift */,
+				FC0D0CEA1DC15D6400DB1BC8 /* Main.storyboard */,
+				FC0D0CEC1DC15D6400DB1BC8 /* Info.plist */,
+				FC0D0CE51DC15D4000DB1BC8 /* AppDelegate.swift */,
 				FC0D0CBE1DC15D2300DB1BC8 /* Assets.xcassets */,
-				FC0D0CC01DC15D2300DB1BC8 /* LaunchScreen.storyboard */,
-				FC0D0CC31DC15D2300DB1BC8 /* Info.plist */,
 			);
 			path = snakeFinder;
 			sourceTree = "<group>";
@@ -187,8 +190,11 @@
 		FC0D0CAC1DC15D2300DB1BC8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"com.apple.gamecenter.Leaderboard Set",
+				);
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Phil Schwartz";
 				TargetAttributes = {
 					FC0D0CB31DC15D2300DB1BC8 = {
@@ -232,9 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0D0CC21DC15D2300DB1BC8 /* LaunchScreen.storyboard in Resources */,
 				FC0D0CBF1DC15D2300DB1BC8 /* Assets.xcassets in Resources */,
-				FC0D0CBD1DC15D2300DB1BC8 /* Main.storyboard in Resources */,
+				FC0D0CF01DC15D6400DB1BC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0D0CBA1DC15D2300DB1BC8 /* ViewController.swift in Sources */,
-				FC0D0CB81DC15D2300DB1BC8 /* AppDelegate.swift in Sources */,
+				FC0D0CE61DC15D4000DB1BC8 /* AppDelegate.swift in Sources */,
+				FC0D0CED1DC15D6400DB1BC8 /* MasterTableViewController.swift in Sources */,
+				FC0D0CEE1DC15D6400DB1BC8 /* Snake.swift in Sources */,
+				FC0D0CEF1DC15D6400DB1BC8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +302,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		FC0D0CBB1DC15D2300DB1BC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC0D0CBC1DC15D2300DB1BC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FC0D0CC01DC15D2300DB1BC8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC0D0CC11DC15D2300DB1BC8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		FC0D0CDA1DC15D2300DB1BC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -333,6 +321,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +372,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -412,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = snakeFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thenewschool.org.snakeFinder;
@@ -424,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = snakeFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thenewschool.org.snakeFinder;
@@ -505,6 +497,7 @@
 				FC0D0CDE1DC15D2300DB1BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC0D0CDF1DC15D2300DB1BC8 /* Build configuration list for PBXNativeTarget "snakeFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +506,7 @@
 				FC0D0CE11DC15D2300DB1BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC0D0CE21DC15D2300DB1BC8 /* Build configuration list for PBXNativeTarget "snakeFinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +515,7 @@
 				FC0D0CE41DC15D2300DB1BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
