@@ -1,9 +1,7 @@
 //
-//  DetailViewController.swift
-//  UISplitViewController Xcode 7
 //
-//  Created by PJ Vea on 9/8/15.
-//  Copyright © 2015 Vea Software. All rights reserved.
+//  Created by Phil
+//
 //
 
 import UIKit
